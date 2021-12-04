@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Titae</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Titae">
+        <meta name="author" content="Titae">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    </head>
+    <body>
+        <!-- This is the visible part of my web page-->
+        <h1>Movies<span class="material-icons-outlined">
+            movies
+            </span></h1>
+        <main>
+            <p>Click here to view more <a href="https://www.timeout.com/film/best-movies-of-all-time">recommended movies </a></p>
+            <a href="#"><img src="movies.jpg.WEBP" alt="movies" width="300" height="250"></a>
+            <p>Movies that I like</p>
+            <ul>
+                <li>Harry potter</li>
+                <li>Venom</li>
+                <li>Spider man</li>
+            </ul>
+            <p>Movies that I hate</p>
+            <ol>
+                <li>Parasite</li>
+                <li>Lord of the Rings</li>
+                <li>Inception</li>
+            </ol>
+            <form action="process.html">
+                <span class="material-icons-outlined">
+                    account_circle
+                    </span>
+                <label for="name">What is Your Name?</label><br>
+                <input type="text" placeholder="Enter your name" id="name" name="WhatIsYoutname"><br>
+                <span class="material-icons-outlined">
+                    account_circle
+                    </span>
+                <label for="surname">What is Your Name?</label><br>
+                <input type="text" placeholder="Enter your Last Name" id="surname" name="lastname"><br>
+                <label for="love">Do you like movie?<br>
+                <span class="material-icons-outlined">
+                    favorite
+                    </span><input type="radio" id="love" name="love">I like movies
+                </label><br>
+                <label for="DontLove">
+                    <span class="material-icons-outlined">
+                        thumb_down_off_alt
+                        </span><input type="radio" id="DontLove" name="Love">I hate movies
+                </label><br>
+                <label for="kind"><input type="radio" id="kind" name="like">What types of movies do you like?</label><br>
+                <label for="an1">
+                <input type="checkbox" id="an1" name="movie">Comedy</label><br>
+                <label for="an2">
+                <input type="checkbox" id="an2" name="movie">Action</label><br>
+                <label for="an3">
+                <input type="checkbox" id="an3" name="movie">Drama</label><br>
+                <label for="an4">
+                <input type="checkbox" id="an4" name="movie">Fantasy</label><br>
+                <label for="an5">
+                <input type="checkbox" id="an5" name="movie">Romance</label><br>
+                <label for="an6">
+                <input type="checkbox" id="an6" name="movie">Thriller</label><br>
+                <label for="an7">
+                <input type="checkbox" id="an7" name="movie">Horror</label><br>
+                <button type="submit">Submit</button>                          
+            </form>
+            <h3>Venom Trailer</h3>
+            <video src="Venom.MP4" width="400" height="240" controls loop></video>
+            <h3>Venom soundtrack</h3>
+            <audio src="Venom.mp3" controls loop></audio>
+            <table>
+                <tr>
+                    <th>Movies</th><th>Type</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Horror</td><td>Evil Dead</td>
+                </tr>
+                <tr>
+                    <td>The Birds</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Fantasy</td><td>Harry Potter</td>
+                </tr>
+                <tr>
+                    <td>Eternals</td>
+                </tr>
+            </table>
+        </main>
+    </body>
+</html>
